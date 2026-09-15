@@ -1,0 +1,1117 @@
+<!-- Paste this HTML into Source (HTML/source view). Do not include <html>/<head>/<body>. -->
+<div id="wte-hub" style="font-family: 'Red Hat Text', 'Open Sans', Arial, sans-serif; max-width: 1280px; margin: 0 auto; padding: 24px 16px 40px; color: #F2F2F2; background: linear-gradient(160deg, #1a0000 0%, #151515 40%, #0f0f0f 100%); border-radius: 12px; box-sizing: border-box;">
+
+
+  
+  <!-- CSS-only filters (Source strips JS from page HTML) -->
+  <input type="radio" name="wtef" id="wte-f-futurefied" checked style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;" />
+  <input type="radio" name="wtef" id="wte-f-switch" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;" />
+  <input type="radio" name="wtef" id="wte-f-oob" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;" />
+  <input type="radio" name="wtef" id="wte-f-ups" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;" />
+  <input type="radio" name="wtef" id="wte-f-printrep" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;" />
+  <input type="radio" name="wtef" id="wte-f-printrefresh" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;" />
+  <input type="radio" name="wtef" id="wte-f-avrefresh" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;" />
+  <input type="radio" name="wtef" id="wte-f-flexaudit" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;" />
+  <input type="radio" name="wtef" id="wte-f-officeopt" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;" />
+
+  <style type="text/css">
+    #wte-f-futurefied:checked ~ .wte-layout .wte-category:not(.wte-p-futurefied),
+    #wte-f-switch:checked ~ .wte-layout .wte-category:not(.wte-p-switch),
+    #wte-f-oob:checked ~ .wte-layout .wte-category:not(.wte-p-oob),
+    #wte-f-ups:checked ~ .wte-layout .wte-category:not(.wte-p-ups),
+    #wte-f-printrep:checked ~ .wte-layout .wte-category:not(.wte-p-printrep),
+    #wte-f-printrefresh:checked ~ .wte-layout .wte-category:not(.wte-p-printrefresh),
+    #wte-f-avrefresh:checked ~ .wte-layout .wte-category:not(.wte-p-avrefresh),
+    #wte-f-flexaudit:checked ~ .wte-layout .wte-category:not(.wte-p-flexaudit),
+    #wte-f-officeopt:checked ~ .wte-layout .wte-category:not(.wte-p-officeopt) { display: none !important; }
+
+    #wte-f-futurefied:checked ~ .wte-layout label[for="wte-f-futurefied"],
+    #wte-f-switch:checked ~ .wte-layout label[for="wte-f-switch"],
+    #wte-f-oob:checked ~ .wte-layout label[for="wte-f-oob"],
+    #wte-f-ups:checked ~ .wte-layout label[for="wte-f-ups"],
+    #wte-f-printrep:checked ~ .wte-layout label[for="wte-f-printrep"],
+    #wte-f-printrefresh:checked ~ .wte-layout label[for="wte-f-printrefresh"],
+    #wte-f-avrefresh:checked ~ .wte-layout label[for="wte-f-avrefresh"],
+    #wte-f-flexaudit:checked ~ .wte-layout label[for="wte-f-flexaudit"],
+    #wte-f-officeopt:checked ~ .wte-layout label[for="wte-f-officeopt"] {
+      background: #EE0000 !important;
+      color: #FFFFFF !important;
+      border-color: #EE0000 !important;
+    }
+    .wte-filter-label:hover {
+      background: #EE0000 !important;
+      color: #FFFFFF !important;
+    }
+    .wte-site-search input[type="text"] {
+      width: 100%;
+      box-sizing: border-box;
+      background: #121212;
+      color: #FFFFFF;
+      border: 1px solid #EE0000;
+      border-radius: 8px;
+      padding: 10px 14px;
+      font-size: 14px;
+      font-family: inherit;
+    }
+    .wte-site-search input[type="text"]::placeholder { color: #8A8A8A; }
+    .wte-site-chip {
+      display: inline-block;
+      background: #2A0000;
+      color: #FFB3B3 !important;
+      border: 1px solid #EE0000;
+      border-radius: 999px;
+      padding: 4px 10px;
+      font-size: 12px;
+      text-decoration: none !important;
+      margin: 0 6px 6px 0;
+    }
+    .wte-site-chip:hover { background: #EE0000; color: #FFFFFF !important; }
+  </style>
+
+  <div class="wte-layout">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+    <tr>
+      <!-- Main content -->
+      <td valign="top" style="width: 72%; padding-right: 20px; vertical-align: top;">
+
+        <!-- Header Banner -->
+        <div style="background: linear-gradient(135deg, #EE0000 0%, #A30000 100%); color: #FFFFFF; padding: 32px 28px; border-radius: 12px; margin-bottom: 28px;">
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #FFFFFF; margin-bottom: 10px; opacity: 0.95;">Red Hat · Workplace Technology Engineering</div>
+          <h1 style="margin: 0 0 10px 0; font-size: 28px; font-weight: 700; letter-spacing: -0.5px; color: #FFFFFF; line-height: 1.25;">WTE Playbook &amp; Installation Guide Hub</h1>
+          <p style="margin: 0; font-size: 15px; color: #FFFFFF; line-height: 1.5; opacity: 0.95;">Your central repository for standardized workplace tech delivery, AV integration, network upgrades, and site deployments across Red Hat.</p>
+        </div>
+
+
+        <!-- Project picker (CSS-only — works on Source without JavaScript) -->
+        <div class="wte-search-panel" style="margin-bottom: 28px; padding: 18px 18px 16px; border: 1px solid #3C3C3C; border-radius: 12px; background-color: #1A1A1A; box-sizing: border-box;">
+          <div style="display: block; font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #4FD1C5; margin-bottom: 10px;">Choose a project</div>
+          <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+            <label for="wte-f-futurefied" class="wte-filter-label" style="background: #2A0000; color: #FFB3B3; border: 1px solid #EE0000; border-radius: 999px; padding: 5px 12px; font-size: 12px; cursor: pointer; font-family: inherit;">Futurefied Network</label>
+            <label for="wte-f-switch" class="wte-filter-label" style="background: #2A0000; color: #FFB3B3; border: 1px solid #EE0000; border-radius: 999px; padding: 5px 12px; font-size: 12px; cursor: pointer; font-family: inherit;">Switch Replacement</label>
+            <label for="wte-f-oob" class="wte-filter-label" style="background: #2A0000; color: #FFB3B3; border: 1px solid #EE0000; border-radius: 999px; padding: 5px 12px; font-size: 12px; cursor: pointer; font-family: inherit;">OOB Replacement</label>
+            <label for="wte-f-ups" class="wte-filter-label" style="background: #2A0000; color: #FFB3B3; border: 1px solid #EE0000; border-radius: 999px; padding: 5px 12px; font-size: 12px; cursor: pointer; font-family: inherit;">UPS Replacement</label>
+            <label for="wte-f-printrep" class="wte-filter-label" style="background: #2A0000; color: #FFB3B3; border: 1px solid #EE0000; border-radius: 999px; padding: 5px 12px; font-size: 12px; cursor: pointer; font-family: inherit;">Print Replacement</label>
+            <label for="wte-f-printrefresh" class="wte-filter-label" style="background: #2A0000; color: #FFB3B3; border: 1px solid #EE0000; border-radius: 999px; padding: 5px 12px; font-size: 12px; cursor: pointer; font-family: inherit;">Print Refresh Program</label>
+            <label for="wte-f-avrefresh" class="wte-filter-label" style="background: #2A0000; color: #FFB3B3; border: 1px solid #EE0000; border-radius: 999px; padding: 5px 12px; font-size: 12px; cursor: pointer; font-family: inherit;">AV Refresh</label>
+            <label for="wte-f-flexaudit" class="wte-filter-label" style="background: #2A0000; color: #FFB3B3; border: 1px solid #EE0000; border-radius: 999px; padding: 5px 12px; font-size: 12px; cursor: pointer; font-family: inherit;">Flex Audit</label>
+            <label for="wte-f-officeopt" class="wte-filter-label" style="background: #2A0000; color: #FFB3B3; border: 1px solid #EE0000; border-radius: 999px; padding: 5px 12px; font-size: 12px; cursor: pointer; font-family: inherit;">Office Optimization</label>
+          </div>
+          <p style="margin: 12px 0 0; font-size: 13px; color: #A3A3A3;">Select a project to open its checklist, solution guide, configuration guide, and data entry template.</p>
+        </div>
+
+        <div class="wte-category wte-p-futurefied" data-category="futurefied" style="margin-bottom: 32px;">
+          <div class="wte-category-header" style="margin-bottom: 8px; border-bottom: 2px solid #EE0000; padding-bottom: 8px;">
+            <h2 style="font-size: 20px; color: #F2F2F2; margin: 0; font-weight: 700;">Futurefied Network</h2>
+          </div>
+
+          <div class="wte-site-search" style="margin: 18px 0 22px; padding: 16px 18px; border: 1px solid #3C3C3C; border-radius: 12px; background-color: #1A1A1A; box-sizing: border-box;">
+            <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin-bottom: 8px;">Site connectivity matrix</div>
+            <p style="margin: 0 0 12px; font-size: 13px; color: #A3A3A3; line-height: 1.45;">Enter a site IATA code to open the Switch Connectivity Matrix folder.</p>
+            <form id="wte-site-form" action="https://drive.google.com/drive/u/0/search" method="get" target="_blank" rel="noopener noreferrer" style="margin: 0 0 12px;">
+              <label for="wte-site-q" style="position:absolute;left:-9999px;">Site</label>
+              <input id="wte-site-q" name="q" type="text" list="wte-site-list" placeholder="Site: CBR, SIN, RDU..." autocomplete="off" style="width: 100%; box-sizing: border-box; background: #121212; color: #FFFFFF; border: 1px solid #EE0000; border-radius: 8px; padding: 10px 14px; font-size: 14px; font-family: inherit;" />
+              <datalist id="wte-site-list">
+                <option value="AMS"><option value="ARN"><option value="BCN"><option value="BLR"><option value="BOG"><option value="BOM"><option value="BRQ-TPBC"><option value="BSS"><option value="CBR"><option value="CDG"><option value="DEL"><option value="DXB"><option value="EZE"><option value="FRA"><option value="GVA"><option value="IAD"><option value="IGX"><option value="KUL"><option value="LCY"><option value="MAD"><option value="MEL"><option value="MEX"><option value="MHT"><option value="MUC"><option value="MXP"><option value="NAY"><option value="NRT"><option value="ORK"><option value="PEK"><option value="PNQ T6"><option value="PNQ T10"><option value="RDU"><option value="ROM"><option value="SCL"><option value="SIN"><option value="STR"><option value="SYD"><option value="SZX"><option value="WAT">
+              </datalist>
+            </form>
+            <div id="wte-site-chips">
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1_QdTQfupfV8yg4ildb_nWOarTcOE_ARP" target="_blank" rel="noopener noreferrer" data-site="AMS">AMS</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1r5zHsUxDTXgnt-1AlWIrqpkJ4s4z445R" target="_blank" rel="noopener noreferrer" data-site="ARN">ARN</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1XvTHpAnyKQTCmgI9meF67aBc2h4brbel" target="_blank" rel="noopener noreferrer" data-site="BCN">BCN</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1bnYfTfo4h8qQywt-fhIVjfwPg5fwL2X_" target="_blank" rel="noopener noreferrer" data-site="BLR">BLR</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1fH4qBxoaCMwvcf75np39EhUa70MPYq7u" target="_blank" rel="noopener noreferrer" data-site="BOG">BOG</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1ckf2L5TMUMR9WcF2swOkkkxObTHzLC4I" target="_blank" rel="noopener noreferrer" data-site="BOM">BOM</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1IBCULm5VlXEMR_CELk47AfML9M58kSEc" target="_blank" rel="noopener noreferrer" data-site="BRQ-TPBC">BRQ-TPBC</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1AsV5FXR1Z16lb5v6Hgh1zQWGvkWuPwRo" target="_blank" rel="noopener noreferrer" data-site="BSS">BSS</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1VUxlysFvwS5tkz40LOebLxih3zR2as8Z" target="_blank" rel="noopener noreferrer" data-site="CBR">CBR</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1nffCyr7bzpHuCpnmsrro57CiWWtmp2sa" target="_blank" rel="noopener noreferrer" data-site="CDG">CDG</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/16tm2Z6HgV-wyIa2Dz8ynV44WUiBKipxz" target="_blank" rel="noopener noreferrer" data-site="DEL">DEL</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1Xs9iRKQ0XeSzYaYsglTBrGOypisT_xAC" target="_blank" rel="noopener noreferrer" data-site="DXB">DXB</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1LzmeK_Y05uB2pUokp7RGn_vA1DXAwsKd" target="_blank" rel="noopener noreferrer" data-site="EZE">EZE</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1esU5GzcC1MT_VMa8cSZ_VoyZ6JDa0OFA" target="_blank" rel="noopener noreferrer" data-site="FRA">FRA</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1Rp1RjO9zY8_2m40rhW-RoCeAZe3Fknor" target="_blank" rel="noopener noreferrer" data-site="GVA">GVA</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1-9YHVUuExpXehXfuQKwYhVOuO75vPQ7n" target="_blank" rel="noopener noreferrer" data-site="IAD">IAD</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1r4hLwb-CcalF2wCIDrNNbe8ocd2ioIxT" target="_blank" rel="noopener noreferrer" data-site="IGX">IGX</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1wOHhpACYOM3K79Uak_bM86fS85GwvXkf" target="_blank" rel="noopener noreferrer" data-site="KUL">KUL</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1ozf2XYAyhV4UWcN0guQPcGAKfmmsx_Vx" target="_blank" rel="noopener noreferrer" data-site="LCY">LCY</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1-owxbJybc7clG6hUnlP7FMgNSjAZsj6n" target="_blank" rel="noopener noreferrer" data-site="MAD">MAD</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1-FL76H86IyTbqVjSkgpqRPnOGYmHzDii" target="_blank" rel="noopener noreferrer" data-site="MEL">MEL</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1UAO6TbgZN8G_Mt47H_zCV2GWVTAulc9C" target="_blank" rel="noopener noreferrer" data-site="MEX">MEX</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/17nf8yaE2z4RTNoAKn7etZW4m7DvbjBq_" target="_blank" rel="noopener noreferrer" data-site="MHT">MHT</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1uBqWrhyu_4S9BehFg8lhMlwuVKAZhJdw" target="_blank" rel="noopener noreferrer" data-site="MUC">MUC</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1HkR_9MO2ezugyYJ85LLNpytNlhpwUrBA" target="_blank" rel="noopener noreferrer" data-site="MXP">MXP</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1EqciNnV3ENKhUJTJ76Dk11vWfS-WmFh3" target="_blank" rel="noopener noreferrer" data-site="NAY">NAY</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1s3vmZtlAMTivmN3ZJTAY9bT90LcvtFAL" target="_blank" rel="noopener noreferrer" data-site="NRT">NRT</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1YRNEP2gWhHbJBoXDHgbPH16kPAwThNUH" target="_blank" rel="noopener noreferrer" data-site="ORK">ORK</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1JY4A6FyFKumEtWyfwq1PLYnLAAt857Ux" target="_blank" rel="noopener noreferrer" data-site="PEK">PEK</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1DfEYx7iKymF8aJesg9NA_nvXSEPbMRlZ" target="_blank" rel="noopener noreferrer" data-site="PNQ T6">PNQ T6</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1y-wTRernzLZ5EZ0T-iN9XgU1xdGQBa8I" target="_blank" rel="noopener noreferrer" data-site="PNQ T10">PNQ T10</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1norvdT7Rzxbp4JFjh-_8HC-QXK0XjzAG" target="_blank" rel="noopener noreferrer" data-site="RDU">RDU</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1VLALHwWDFazwx09kNibd1DIPfVSnXuzc" target="_blank" rel="noopener noreferrer" data-site="ROM">ROM</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1k-kueJjel9cRaHurZah8QXl-w2f1kCZ9" target="_blank" rel="noopener noreferrer" data-site="SCL">SCL</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/13eSC3R-_cB7mzve4dNLnCuJy8JJAAyAh" target="_blank" rel="noopener noreferrer" data-site="SIN">SIN</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1rSER_WHYffjZ9r5CUuXNX1didEPuCFLS" target="_blank" rel="noopener noreferrer" data-site="STR">STR</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1D-2GWGqqjrHWWP7yyn_Pmy1LndqfprnC" target="_blank" rel="noopener noreferrer" data-site="SYD">SYD</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/17_evB2VW8jT8grAj9yTqU6-Rx5QMYZzO" target="_blank" rel="noopener noreferrer" data-site="SZX">SZX</a>
+              <a class="wte-site-chip" href="https://drive.google.com/drive/u/0/folders/1-C3buJgewo6AvD2O1FzJwJPjEsyL_SZz" target="_blank" rel="noopener noreferrer" data-site="WAT">WAT</a>
+            </div>
+            <p style="margin: 10px 0 0; font-size: 12px; color: #A3A3A3;">Or browse all site contractor folders: <a href="https://drive.google.com/drive/u/0/folders/1o3Ly8q9XIGLyUi2IQ7tvLLKSsHp5-0ry" target="_blank" rel="noopener noreferrer" style="color: #4FD1C5;">Open parent folder</a></p>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Checklist</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #EE0000; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">Red Hat Infrastructure Upgrade - Quick Guide</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <a href="https://docs.google.com/document/d/1t10kUxvDFpjMY3e0VGBrW0bPxWU8Lwp9kXjdcZwv74Q/edit?tab=t.0#heading=h.ri2nhcxbgc9b" target="_blank" style="background-color: #EE0000; color: #FFFFFF !important; text-decoration: none; padding: 6px 14px; border-radius: 4px; font-size: 13px; font-weight: 600; display: inline-block;">Open Checklist ↗</a>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> Fast-reference cheatsheet for engineers and project leads covering high-level hardware and cabling upgrade steps on Futurefied sites.</p>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Solution Guide</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #EE0000; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">Workplace Technology Delivery - Optimization Playbook</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <a href="https://docs.google.com/document/d/1fw8q_snr77XSYHKOWwJw7l8l0WvgAGi26pmeYcKoQMs/edit?tab=t.0" target="_blank" style="background-color: #EE0000; color: #FFFFFF !important; text-decoration: none; padding: 6px 14px; border-radius: 4px; font-size: 13px; font-weight: 600; display: inline-block;">Open Guide ↗</a>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> End-to-end operational blueprint for office tech optimization. Includes project templates, risk checklists, and PM workflows for Futurefied site handoffs.</p>
+          </div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #EE0000; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">Project Easy - Integrator Playbook V.3 Final</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <a href="https://docs.google.com/document/d/1TAUeeZSQhhdA1e-6FwGZKkKy72wCsz27g0O90QYWKJg/edit?tab=t.0#heading=h.ri2nhcxbgc9b" target="_blank" style="background-color: #EE0000; color: #FFFFFF !important; text-decoration: none; padding: 6px 14px; border-radius: 4px; font-size: 13px; font-weight: 600; display: inline-block;">Open Guide ↗</a>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> Core execution framework for infrastructure upgrades. Aligns technical teams on communication protocols, safety standards, and QA checkpoints.</p>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Configuration Guide</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #EE0000; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">Raritan PDU Configuration Guide - iX7 Controller</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <a href="https://source.redhat.com/groups/private/oits/internal_it_content_workplace_technology_team_wiki/wip_raritan_ix7_controller_configuration_guide" target="_blank" style="background-color: #EE0000; color: #FFFFFF !important; text-decoration: none; padding: 6px 14px; border-radius: 4px; font-size: 13px; font-weight: 600; display: inline-block;">Open Guide ↗</a>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> Configuration reference for provisioning Raritan PDU iX7 controllers in office MDF/IDF environments during Futurefied network delivery.</p>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Data Entry Template</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #EE0000; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">Project Data Entry Playbook</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <a href="https://docs.google.com/document/d/1er-C8hx7nJ_RrMDKPMjsHoPMhS6JiIbx82748RSC7lw/edit?tab=t.0" target="_blank" style="background-color: #EE0000; color: #FFFFFF !important; text-decoration: none; padding: 6px 14px; border-radius: 4px; font-size: 13px; font-weight: 600; display: inline-block;">Open Template ↗</a>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> The standard data-hygiene and asset-tracking template for global infrastructure projects. Use it to capture inventory from procurement through installation.</p>
+          </div>
+        </div>
+
+        <div class="wte-category wte-p-switch" data-category="switch" style="margin-bottom: 32px;">
+          <div class="wte-category-header" style="margin-bottom: 8px; border-bottom: 2px solid #EE0000; padding-bottom: 8px;">
+            <h2 style="font-size: 20px; color: #F2F2F2; margin: 0; font-weight: 700;">Switch Replacement</h2>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Checklist</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #EE0000; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">MDF - (Remote) Switch Replacement Process</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <a href="https://docs.google.com/document/d/1FsjiEpp81PKODLHEXBSw_Q1yNB5bsfghwYq3CFwzGf8/edit?tab=t.0#heading=h.ri2nhcxbgc9b" target="_blank" style="background-color: #EE0000; color: #FFFFFF !important; text-decoration: none; padding: 6px 14px; border-radius: 4px; font-size: 13px; font-weight: 600; display: inline-block;">Open Checklist ↗</a>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> Tactical workflow and escalation pathways for switch cutovers with off-site central engineering teams.</p>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Solution Guide</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #EE0000; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">MDF - Switch Replacement Playbook V.1</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <a href="https://docs.google.com/document/d/1cZLna51rz4lCr_2Vn8cLtZMr3h85lslaLpCdU1FjwZ8/edit?tab=t.0#heading=h.ri2nhcxbgc9b" target="_blank" style="background-color: #EE0000; color: #FFFFFF !important; text-decoration: none; padding: 6px 14px; border-radius: 4px; font-size: 13px; font-weight: 600; display: inline-block;">Open Guide ↗</a>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> Complete SOP for global office switch replacements, from kickoff through post-cutover validation.</p>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Configuration Guide</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #EE0000; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">Switch Replacement Integrator Playbook</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <a href="https://docs.google.com/document/d/1ASQU7YRunz2_NGybkcYU7P8DwIrKm71eyfa-uORLytM/edit?tab=t.0#heading=h.ri2nhcxbgc9b" target="_blank" style="background-color: #EE0000; color: #FFFFFF !important; text-decoration: none; padding: 6px 14px; border-radius: 4px; font-size: 13px; font-weight: 600; display: inline-block;">Open Guide ↗</a>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> Hands-on field reference for local technicians assisting remote engineers during IDF and MDF rack-and-stack operations.</p>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Data Entry Template</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #EE0000; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">Project Data Entry Playbook</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <a href="https://docs.google.com/document/d/1er-C8hx7nJ_RrMDKPMjsHoPMhS6JiIbx82748RSC7lw/edit?tab=t.0" target="_blank" style="background-color: #EE0000; color: #FFFFFF !important; text-decoration: none; padding: 6px 14px; border-radius: 4px; font-size: 13px; font-weight: 600; display: inline-block;">Open Template ↗</a>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> The standard data-hygiene and asset-tracking template for global infrastructure projects. Use it to capture inventory from procurement through installation.</p>
+          </div>
+        </div>
+
+        <div class="wte-category wte-p-oob" data-category="oob" style="margin-bottom: 32px;">
+          <div class="wte-category-header" style="margin-bottom: 8px; border-bottom: 2px solid #EE0000; padding-bottom: 8px;">
+            <h2 style="font-size: 20px; color: #F2F2F2; margin: 0; font-weight: 700;">OOB Replacement</h2>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Checklist</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #5A5A5A; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">OOB Replacement Checklist</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <span style="color: #A3A3A3; font-size: 12px; font-weight: 600; padding: 6px 12px; border: 1px solid #5A5A5A; border-radius: 4px; display: inline-block;">Coming soon</span>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> Site walkthrough and cutover checklist for out-of-band management hardware replacement. Link will be added when the checklist is published.</p>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Solution Guide</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #EE0000; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">Network Probes Installation Playbook &amp; SOW</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <a href="https://drive.google.com/file/d/1eq-AtGkuYktIurIm4cdDw1yrIqEfqlga/view" target="_blank" style="background-color: #EE0000; color: #FFFFFF !important; text-decoration: none; padding: 6px 14px; border-radius: 4px; font-size: 13px; font-weight: 600; display: inline-block;">Open Guide ↗</a>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> Scope of Work and physical installation procedure for Lenovo-based network probes in main distribution frames (MDFs).</p>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Configuration Guide</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #5A5A5A; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">OOB Device Configuration Guide</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <span style="color: #A3A3A3; font-size: 12px; font-weight: 600; padding: 6px 12px; border: 1px solid #5A5A5A; border-radius: 4px; display: inline-block;">Coming soon</span>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> Step-by-step configuration for replacement out-of-band devices. Link will be added when the guide is published.</p>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Data Entry Template</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #EE0000; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">Project Data Entry Playbook</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <a href="https://docs.google.com/document/d/1er-C8hx7nJ_RrMDKPMjsHoPMhS6JiIbx82748RSC7lw/edit?tab=t.0" target="_blank" style="background-color: #EE0000; color: #FFFFFF !important; text-decoration: none; padding: 6px 14px; border-radius: 4px; font-size: 13px; font-weight: 600; display: inline-block;">Open Template ↗</a>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> The standard data-hygiene and asset-tracking template for global infrastructure projects. Use it to capture inventory from procurement through installation.</p>
+          </div>
+        </div>
+
+        <div class="wte-category wte-p-ups" data-category="ups" style="margin-bottom: 32px;">
+          <div class="wte-category-header" style="margin-bottom: 8px; border-bottom: 2px solid #EE0000; padding-bottom: 8px;">
+            <h2 style="font-size: 20px; color: #F2F2F2; margin: 0; font-weight: 700;">UPS Replacement</h2>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Checklist</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #5A5A5A; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">UPS Replacement Checklist</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <span style="color: #A3A3A3; font-size: 12px; font-weight: 600; padding: 6px 12px; border: 1px solid #5A5A5A; border-radius: 4px; display: inline-block;">Coming soon</span>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> Pre-install, cutover, and validation checklist for APC UPS replacements in workplace MDFs/IDFs. Link will be added when published.</p>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Solution Guide</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #5A5A5A; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">UPS Replacement Solution Guide</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <span style="color: #A3A3A3; font-size: 12px; font-weight: 600; padding: 6px 12px; border: 1px solid #5A5A5A; border-radius: 4px; display: inline-block;">Coming soon</span>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> Delivery approach, roles, and cutover method for UPS replacement projects. Link will be added when published.</p>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Configuration Guide</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #EE0000; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">Configuration Guide - APC UPS</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <a href="https://source.redhat.com/groups/private/oits/internal_it_content_workplace_technology_team_wiki/apc_device_configuration_wip" target="_blank" style="background-color: #EE0000; color: #FFFFFF !important; text-decoration: none; padding: 6px 14px; border-radius: 4px; font-size: 13px; font-weight: 600; display: inline-block;">Open Guide ↗</a>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> Device configuration guide for deploying and managing APC UPS units that support Red Hat workplace infrastructure.</p>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Data Entry Template</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #EE0000; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">Project Data Entry Playbook</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <a href="https://docs.google.com/document/d/1er-C8hx7nJ_RrMDKPMjsHoPMhS6JiIbx82748RSC7lw/edit?tab=t.0" target="_blank" style="background-color: #EE0000; color: #FFFFFF !important; text-decoration: none; padding: 6px 14px; border-radius: 4px; font-size: 13px; font-weight: 600; display: inline-block;">Open Template ↗</a>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> The standard data-hygiene and asset-tracking template for global infrastructure projects. Use it to capture inventory from procurement through installation.</p>
+          </div>
+        </div>
+
+        <div class="wte-category wte-p-printrep" data-category="printrep" style="margin-bottom: 32px;">
+          <div class="wte-category-header" style="margin-bottom: 8px; border-bottom: 2px solid #EE0000; padding-bottom: 8px;">
+            <h2 style="font-size: 20px; color: #F2F2F2; margin: 0; font-weight: 700;">Print Replacement</h2>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Checklist</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #5A5A5A; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">Print Replacement Checklist</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <span style="color: #A3A3A3; font-size: 12px; font-weight: 600; padding: 6px 12px; border: 1px solid #5A5A5A; border-radius: 4px; display: inline-block;">Coming soon</span>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> Install and cutover checklist for replacing printers and badge readers on site. Link will be added when published.</p>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Solution Guide</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #EE0000; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">Canon Printer Badge Reader Installation Playbook &amp; SOW</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <a href="https://docs.google.com/document/d/1MucoPL5kWZzq-PxtDn7A7F1IdUtuX5AAWM-LDNSnqQk/edit?tab=t.0" target="_blank" style="background-color: #EE0000; color: #FFFFFF !important; text-decoration: none; padding: 6px 14px; border-radius: 4px; font-size: 13px; font-weight: 600; display: inline-block;">Open Guide ↗</a>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> Defines responsibility boundaries between Red Hat IT and Canon service teams during badge reader deployment and authentication migrations.</p>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Configuration Guide</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #EE0000; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">Add Printer to UniFlow Online Cloud</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <a href="https://docs.google.com/document/d/1ygjq67GtW-Bjhlna8D2bkDWcSCKUxaug0a7_WzYP2FQ/edit?tab=t.0" target="_blank" style="background-color: #EE0000; color: #FFFFFF !important; text-decoration: none; padding: 6px 14px; border-radius: 4px; font-size: 13px; font-weight: 600; display: inline-block;">Open Guide ↗</a>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> Step-by-step guide for adding replacement printers to UniFlow Online Cloud for Secure Print provisioning.</p>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Data Entry Template</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #EE0000; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">Project Data Entry Playbook</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <a href="https://docs.google.com/document/d/1er-C8hx7nJ_RrMDKPMjsHoPMhS6JiIbx82748RSC7lw/edit?tab=t.0" target="_blank" style="background-color: #EE0000; color: #FFFFFF !important; text-decoration: none; padding: 6px 14px; border-radius: 4px; font-size: 13px; font-weight: 600; display: inline-block;">Open Template ↗</a>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> The standard data-hygiene and asset-tracking template for global infrastructure projects. Use it to capture inventory from procurement through installation.</p>
+          </div>
+        </div>
+
+        <div class="wte-category wte-p-printrefresh" data-category="printrefresh" style="margin-bottom: 32px;">
+          <div class="wte-category-header" style="margin-bottom: 8px; border-bottom: 2px solid #EE0000; padding-bottom: 8px;">
+            <h2 style="font-size: 20px; color: #F2F2F2; margin: 0; font-weight: 700;">Print Refresh Program</h2>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Checklist</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #5A5A5A; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">Print Refresh Program Checklist</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <span style="color: #A3A3A3; font-size: 12px; font-weight: 600; padding: 6px 12px; border: 1px solid #5A5A5A; border-radius: 4px; display: inline-block;">Coming soon</span>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> Program-level checklist for printer fleet refresh waves, site readiness, and handoff. Link will be added when published.</p>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Solution Guide</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #EE0000; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">Platform Support &amp; Management Plan - Printing (Secure Print)</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <a href="https://source.redhat.com/groups/private/oits/internal_it_content_workplace_technology_team_wiki/service_name_platform_and_support_management_plan" target="_blank" style="background-color: #EE0000; color: #FFFFFF !important; text-decoration: none; padding: 6px 14px; border-radius: 4px; font-size: 13px; font-weight: 600; display: inline-block;">Open Guide ↗</a>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> Platform support and management plan covering Secure Print service ownership, support model, and operational responsibilities.</p>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Configuration Guide</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #EE0000; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">Add Printer to UniFlow Online Cloud</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <a href="https://docs.google.com/document/d/1ygjq67GtW-Bjhlna8D2bkDWcSCKUxaug0a7_WzYP2FQ/edit?tab=t.0" target="_blank" style="background-color: #EE0000; color: #FFFFFF !important; text-decoration: none; padding: 6px 14px; border-radius: 4px; font-size: 13px; font-weight: 600; display: inline-block;">Open Guide ↗</a>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> Step-by-step guide for adding refreshed printers to UniFlow Online Cloud for Secure Print access.</p>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Data Entry Template</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #EE0000; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">Project Data Entry Playbook</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <a href="https://docs.google.com/document/d/1er-C8hx7nJ_RrMDKPMjsHoPMhS6JiIbx82748RSC7lw/edit?tab=t.0" target="_blank" style="background-color: #EE0000; color: #FFFFFF !important; text-decoration: none; padding: 6px 14px; border-radius: 4px; font-size: 13px; font-weight: 600; display: inline-block;">Open Template ↗</a>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> The standard data-hygiene and asset-tracking template for global infrastructure projects. Use it to capture inventory from procurement through installation.</p>
+          </div>
+        </div>
+
+        <div class="wte-category wte-p-avrefresh" data-category="avrefresh" style="margin-bottom: 32px;">
+          <div class="wte-category-header" style="margin-bottom: 8px; border-bottom: 2px solid #EE0000; padding-bottom: 8px;">
+            <h2 style="font-size: 20px; color: #F2F2F2; margin: 0; font-weight: 700;">AV Refresh</h2>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Checklist</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #EE0000; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">Group Series to Studio X-Series Conversions 2.0</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <a href="https://docs.google.com/document/d/136EJbp9Xls92Ayuwvqw4qZzt67UObe7uKP8od63a6lc/edit?tab=t.0#heading=h.uz926flz40d3" target="_blank" style="background-color: #EE0000; color: #FFFFFF !important; text-decoration: none; padding: 6px 14px; border-radius: 4px; font-size: 13px; font-weight: 600; display: inline-block;">Open Checklist ↗</a>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> Migration checklist for converting legacy Polycom Group Series systems to Poly Studio X-Series without disrupting room scheduling.</p>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Solution Guide</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #EE0000; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">AV Integrator Playbook v2</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <a href="https://docs.google.com/document/d/1PeJZtDVWly1tD3r-Z_GCPUZ8afVnBFdlfPHEwmxZK_I/edit?tab=t.0#heading=h.ri2nhcxbgc9b" target="_blank" style="background-color: #EE0000; color: #FFFFFF !important; text-decoration: none; padding: 6px 14px; border-radius: 4px; font-size: 13px; font-weight: 600; display: inline-block;">Open Guide ↗</a>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> Technical standards, hardware specifications, and quality validation criteria for Red Hat AV room installations and refreshes.</p>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Configuration Guide</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #EE0000; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">Configuration Guide - Digital Signage + Dashboards - Appspace</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <a href="https://source.redhat.com/groups/private/oits/internal_it_content_workplace_technology_team_wiki/configuration_guide_digital_signage_appspace" target="_blank" style="background-color: #EE0000; color: #FFFFFF !important; text-decoration: none; padding: 6px 14px; border-radius: 4px; font-size: 13px; font-weight: 600; display: inline-block;">Open Guide ↗</a>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> Step-by-step configuration for deploying and managing Appspace digital signage and dashboards in workplace spaces.</p>
+          </div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #EE0000; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">Configuration Guide - Logi MeetUp2 (BYOM)</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <a href="https://source.redhat.com/groups/private/oits/internal_it_content_workplace_technology_team_wiki/configuration_guide_logi_meetup2_byom" target="_blank" style="background-color: #EE0000; color: #FFFFFF !important; text-decoration: none; padding: 6px 14px; border-radius: 4px; font-size: 13px; font-weight: 600; display: inline-block;">Open Guide ↗</a>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> Configuration and setup guide for Logitech MeetUp 2 Bring Your Own Meeting (BYOM) deployments.</p>
+          </div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #EE0000; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">Logi Tap Scheduler Configuration Guide</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <a href="https://source.redhat.com/groups/private/oits/internal_it_content_workplace_technology_team_wiki/logi_tap_scheduler_configuration_guide" target="_blank" style="background-color: #EE0000; color: #FFFFFF !important; text-decoration: none; padding: 6px 14px; border-radius: 4px; font-size: 13px; font-weight: 600; display: inline-block;">Open Guide ↗</a>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> Configuration reference for Logitech Tap Scheduler room booking panels across Red Hat meeting spaces.</p>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Data Entry Template</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #EE0000; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">Project Data Entry Playbook</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <a href="https://docs.google.com/document/d/1er-C8hx7nJ_RrMDKPMjsHoPMhS6JiIbx82748RSC7lw/edit?tab=t.0" target="_blank" style="background-color: #EE0000; color: #FFFFFF !important; text-decoration: none; padding: 6px 14px; border-radius: 4px; font-size: 13px; font-weight: 600; display: inline-block;">Open Template ↗</a>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> The standard data-hygiene and asset-tracking template for global infrastructure projects. Use it to capture inventory from procurement through installation.</p>
+          </div>
+        </div>
+
+        <div class="wte-category wte-p-flexaudit" data-category="flexaudit" style="margin-bottom: 32px;">
+          <div class="wte-category-header" style="margin-bottom: 8px; border-bottom: 2px solid #EE0000; padding-bottom: 8px;">
+            <h2 style="font-size: 20px; color: #F2F2F2; margin: 0; font-weight: 700;">Flex Audit</h2>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Checklist</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #5A5A5A; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">Flex Audit Checklist</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <span style="color: #A3A3A3; font-size: 12px; font-weight: 600; padding: 6px 12px; border: 1px solid #5A5A5A; border-radius: 4px; display: inline-block;">Coming soon</span>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> Site audit checklist for flexible workplace technology reviews. Link will be added when published.</p>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Solution Guide</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #5A5A5A; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">Flex Audit Solution Guide</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <span style="color: #A3A3A3; font-size: 12px; font-weight: 600; padding: 6px 12px; border: 1px solid #5A5A5A; border-radius: 4px; display: inline-block;">Coming soon</span>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> Approach, scope, and reporting method for Flex Audit engagements. Link will be added when published.</p>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Configuration Guide</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #5A5A5A; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">Flex Audit Configuration Guide</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <span style="color: #A3A3A3; font-size: 12px; font-weight: 600; padding: 6px 12px; border: 1px solid #5A5A5A; border-radius: 4px; display: inline-block;">Coming soon</span>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> Reference for validating room, network, and collaboration configurations during a Flex Audit. Link will be added when published.</p>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Data Entry Template</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #EE0000; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">Project Data Entry Playbook</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <a href="https://docs.google.com/document/d/1er-C8hx7nJ_RrMDKPMjsHoPMhS6JiIbx82748RSC7lw/edit?tab=t.0" target="_blank" style="background-color: #EE0000; color: #FFFFFF !important; text-decoration: none; padding: 6px 14px; border-radius: 4px; font-size: 13px; font-weight: 600; display: inline-block;">Open Template ↗</a>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> The standard data-hygiene and asset-tracking template for global infrastructure projects. Use it to capture inventory from procurement through installation.</p>
+          </div>
+        </div>
+
+        <div class="wte-category wte-p-officeopt" data-category="officeopt" style="margin-bottom: 32px;">
+          <div class="wte-category-header" style="margin-bottom: 8px; border-bottom: 2px solid #EE0000; padding-bottom: 8px;">
+            <h2 style="font-size: 20px; color: #F2F2F2; margin: 0; font-weight: 700;">Office Optimization</h2>
+          </div>
+          <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4FD1C5; margin: 18px 0 10px;">Checklist</div>
+          <div class="wte-card" style="border: 1px solid #3C3C3C; border-left: 5px solid #EE0000; border-radius: 8px; padding: 18px 20px; background-color: #212121; margin-bottom: 16px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+              <tr>
+                <td valign="top" style="padding-right: 12px;">
+                  <h3 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #FFFFFF; line-height: 1.35;">Workplace Technology Delivery - Office Optimization Checklist</h3>
+                </td>
+                <td valign="top" align="right" style="width: 140px; white-space: nowrap;">
+                  <a href="https://docs.google.com/spreadsheets/d/1ftccLL9OuVCNwg81HrmvquHDPex5PA8dl-nWZ_bTTqg/edit?gid=1107907616#gid=1107907616" target="_blank" style="background-color: #EE0000; color: #FFFFFF !important; text-decoration: none; padding: 6px 14px; border-radius: 4px; font-size: 13px; font-weight: 600; display: inline-block;">Open Checklist ↗</a>
+                </td>
+              </tr>
+            </table>
+            <p style="margin: 0; font-size: 14px; color: #C7C7C7; line-height: 1.5;"><strong style="color: #E8E8E8;">Why use it:</strong> Workplace Technology Delivery - Office Optimization Checklist. Useful tabs: Colocation Sharing with IBM, Decommission Office, Move to MSO, MSO Desks Upfit, and Reduce Office Footprint.</p>
+          </div>
+        </div>
+
+      </td>
+
+      <!-- Team sidebar -->
+      <td valign="top" style="width: 28%; vertical-align: top;">
+        <style>
+          @keyframes wte-scan {
+            0%, 100% { top: 6%; opacity: 0; }
+            12% { opacity: 1; }
+            50% { top: 90%; opacity: 0.9; }
+            88% { opacity: 1; }
+          }
+          @keyframes wte-pulse {
+            0%, 100% {
+              transform: scale(1);
+              box-shadow:
+                0 0 0 0 rgba(61, 214, 140, 0.75),
+                0 0 10px rgba(61, 214, 140, 1),
+                0 0 18px rgba(61, 214, 140, 0.7);
+            }
+            50% {
+              transform: scale(0.92);
+              box-shadow:
+                0 0 0 8px rgba(61, 214, 140, 0),
+                0 0 14px rgba(100, 255, 180, 1),
+                0 0 28px rgba(61, 214, 140, 0.9);
+            }
+          }
+          @keyframes wte-live-ring {
+            0% { transform: scale(0.7); opacity: 0.9; }
+            70% { transform: scale(1.7); opacity: 0; }
+            100% { transform: scale(1.7); opacity: 0; }
+          }
+          @keyframes wte-avatar-glow {
+            0%, 100% { box-shadow: 0 0 0 1px rgba(255,255,255,0.04) inset, 0 0 10px rgba(238,0,0,0.18); }
+            50% { box-shadow: 0 0 0 1px rgba(255,255,255,0.08) inset, 0 0 18px rgba(238,0,0,0.45); }
+          }
+          @keyframes wte-border-glow {
+            0%, 100% { border-color: #EE0000; box-shadow: 0 0 12px rgba(238,0,0,0.18); }
+            50% { border-color: #FF4D4D; box-shadow: 0 0 22px rgba(238,0,0,0.4), 0 0 8px rgba(79,209,197,0.15); }
+          }
+          .wte-team-panel {
+            position: relative !important;
+            overflow: hidden !important;
+            border: 1px solid #EE0000 !important;
+            border-radius: 14px !important;
+            background-color: #121214 !important;
+            padding: 16px !important;
+            box-sizing: border-box !important;
+            animation: wte-border-glow 3.2s ease-in-out infinite;
+          }
+          .wte-scan {
+            position: absolute !important;
+            left: 0 !important;
+            right: 0 !important;
+            height: 3px !important;
+            background: linear-gradient(90deg, transparent, #FF4D4D, #FFFFFF, #7FF5EA, transparent) !important;
+            box-shadow:
+              0 0 10px rgba(255, 255, 255, 0.85),
+              0 0 22px rgba(238, 0, 0, 1),
+              0 0 36px rgba(238, 0, 0, 0.75) !important;
+            animation: wte-scan 4.5s ease-in-out infinite !important;
+            pointer-events: none !important;
+            z-index: 3 !important;
+          }
+          .wte-team-grid {
+            position: absolute !important;
+            inset: 0 !important;
+            background-image:
+              linear-gradient(rgba(238, 0, 0, 0.05) 1px, transparent 1px),
+              linear-gradient(90deg, rgba(238, 0, 0, 0.05) 1px, transparent 1px) !important;
+            background-size: 22px 22px !important;
+            opacity: 0.7 !important;
+            pointer-events: none !important;
+            z-index: 0 !important;
+          }
+          .wte-team-content { position: relative !important; z-index: 1 !important; }
+          .wte-live {
+            display: inline-flex !important;
+            align-items: center !important;
+            gap: 8px !important;
+            font-family: Consolas, 'Courier New', monospace !important;
+            font-size: 10px !important;
+            color: #A3A3A3 !important;
+            letter-spacing: 0.06em !important;
+          }
+          .wte-live-orb {
+            position: relative !important;
+            width: 14px !important;
+            height: 14px !important;
+            display: inline-flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            flex-shrink: 0 !important;
+          }
+          .wte-live-orb::before {
+            content: "" !important;
+            position: absolute !important;
+            width: 14px !important;
+            height: 14px !important;
+            border-radius: 50% !important;
+            border: 2px solid #3DD68C !important;
+            animation: wte-live-ring 1.8s ease-out infinite !important;
+          }
+          .wte-live-dot {
+            display: inline-block !important;
+            width: 12px !important;
+            height: 12px !important;
+            border-radius: 50% !important;
+            background-color: #00FF6A !important;
+            background: radial-gradient(circle at 35% 35%, #E8FFE8 0%, #00FF6A 40%, #00C853 100%) !important;
+            border: 2px solid #B8FFD6 !important;
+            box-shadow: 0 0 8px #00FF6A, 0 0 16px #3DD68C, 0 0 24px rgba(0,255,106,0.7) !important;
+            animation: wte-pulse 1.8s ease-in-out infinite !important;
+            z-index: 1 !important;
+            color: #00FF6A !important;
+            font-size: 12px !important;
+            line-height: 12px !important;
+            text-align: center !important;
+            overflow: visible !important;
+          }
+          .wte-member {
+            padding: 10px 8px !important;
+            border-top: 1px solid #2E2E2E !important;
+            border-radius: 10px !important;
+            transition: background 0.2s ease, transform 0.2s ease, border-color 0.2s ease !important;
+          }
+          .wte-member:hover {
+            background: rgba(238, 0, 0, 0.1) !important;
+            transform: translateX(-2px) !important;
+          }
+          .wte-avatar {
+            width: 42px !important;
+            height: 42px !important;
+            border-radius: 12px !important;
+            background-color: #3A0000 !important;
+            border: 1px solid #EE0000 !important;
+            color: #FFFFFF !important;
+            font-family: Consolas, 'Courier New', monospace !important;
+            font-size: 12px !important;
+            font-weight: 600 !important;
+            text-align: center !important;
+            line-height: 42px !important;
+            animation: wte-avatar-glow 3s ease-in-out infinite !important;
+          }
+          .wte-team-panel a.wte-name-link,
+          .wte-team-panel a.wte-name-link:link,
+          .wte-team-panel a.wte-name-link:visited,
+          .wte-team-panel a.wte-name-link:hover,
+          .wte-team-panel a.wte-name-link:active,
+          .wte-team-panel a.wte-name-link:focus {
+            color: #FFFFFF !important;
+            text-decoration: none !important;
+            border-bottom: 1px solid #4FD1C5 !important;
+            outline: none !important;
+          }
+          .wte-team-panel a.wte-name-link:hover {
+            color: #FFFFFF !important;
+            border-bottom-color: #7FF5EA !important;
+          }
+        </style>
+
+        <div class="wte-team-panel" style="position: relative; overflow: hidden; border: 1px solid #EE0000; border-radius: 14px; background-color: #121214; padding: 16px; box-sizing: border-box;">
+          <div class="wte-team-grid" aria-hidden="true"></div>
+          <div class="wte-scan" aria-hidden="true"></div>
+
+          <!-- SVG fallback scan/pulse if Source keeps SVG but strips CSS animations -->
+          <svg aria-hidden="true" width="100%" height="100%" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; pointer-events: none; z-index: 2; overflow: hidden;">
+            <defs>
+              <linearGradient id="wteScanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#FF4D4D" stop-opacity="0" />
+                <stop offset="35%" stop-color="#FF4D4D" stop-opacity="1" />
+                <stop offset="50%" stop-color="#FFFFFF" stop-opacity="1" />
+                <stop offset="65%" stop-color="#7FF5EA" stop-opacity="1" />
+                <stop offset="100%" stop-color="#4FD1C5" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+            <rect x="0" y="8%" width="100%" height="3" fill="url(#wteScanGrad)">
+              <animate attributeName="y" values="8%;90%;8%" dur="4.5s" repeatCount="indefinite" />
+              <animate attributeName="opacity" values="0;1;0.9;1;0" dur="4.5s" repeatCount="indefinite" />
+            </rect>
+          </svg>
+
+          <div class="wte-team-content" style="position: relative; z-index: 3;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%; margin-bottom: 6px;">
+              <tr>
+                <td style="font-family: Consolas, 'Courier New', monospace; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #4FD1C5;">// team.roster</td>
+                <td align="right" style="white-space: nowrap; vertical-align: middle;">
+                  <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
+                    <tr>
+                      <td style="vertical-align: middle; padding-right: 8px;">
+                        <!-- Bright green LIVE orb (inline styles for Source compatibility) -->
+                        <span class="wte-live-dot" style="display: inline-block; width: 12px; height: 12px; border-radius: 50%; background-color: #00FF6A; border: 2px solid #B8FFD6; box-shadow: 0 0 8px #00FF6A, 0 0 16px #3DD68C, 0 0 24px rgba(0,255,106,0.7); vertical-align: middle; line-height: 12px; font-size: 12px; color: #00FF6A;">&#9679;</span>
+                      </td>
+                      <td style="vertical-align: middle; font-family: Consolas, 'Courier New', monospace; font-size: 10px; letter-spacing: 0.08em; color: #A3A3A3;">LIVE</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <h2 style="margin: 0 0 4px 0; font-size: 18px; font-weight: 700; color: #FFFFFF;">WTE Squad</h2>
+            <p style="margin: 0 0 10px 0; font-size: 12px; color: #A3A3A3; line-height: 1.4;">Global workplace technology engineering crew</p>
+            <div style="display: inline-block; font-family: Consolas, 'Courier New', monospace; font-size: 11px; color: #C7C7C7; padding: 4px 10px; border-radius: 999px; border: 1px solid #A30000; background-color: #2A0000; margin-bottom: 14px;"><strong style="color: #FFFFFF; font-weight: 600;">09</strong> operatives online</div>
+
+            <!-- Member: Brent Nelson (manager first) -->
+            <div class="wte-member" style="padding: 10px 0; border-top: 1px solid #2E2E2E;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+                <tr>
+                  <td valign="top" style="width: 42px; padding-right: 10px;">
+                    <div class="wte-avatar" style="width: 42px; height: 42px; border-radius: 12px; background-color: #3A0000; border: 1px solid #EE0000; color: #FFFFFF; font-family: Consolas, 'Courier New', monospace; font-size: 12px; font-weight: 600; text-align: center; line-height: 42px;">BN</div>
+                  </td>
+                  <td valign="top">
+                    <p style="margin: 0 0 2px 0; font-size: 13px; font-weight: 600; color: #FFFFFF; line-height: 1.3;"><a href="https://rover.redhat.com/people/profile/bnelson" target="_blank" rel="noopener noreferrer" class="wte-name-link" style="color: #FFFFFF !important; text-decoration: none !important; border-bottom: 1px solid #4FD1C5;">Brent Nelson</a></p>
+                    <p style="margin: 0 0 3px 0; font-size: 11px; color: #C7C7C7; line-height: 1.35;">Manager, Information and Technology Services</p>
+                    <p style="margin: 0; font-family: Consolas, 'Courier New', monospace; font-size: 10px; color: #4FD1C5; line-height: 1.35;">RH · Raleigh</p>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="wte-member" style="padding: 10px 0; border-top: 1px solid #2E2E2E;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+                <tr>
+                  <td valign="top" style="width: 42px; padding-right: 10px;">
+                    <div class="wte-avatar" style="width: 42px; height: 42px; border-radius: 12px; background-color: #3A0000; border: 1px solid #EE0000; color: #FFFFFF; font-family: Consolas, 'Courier New', monospace; font-size: 12px; font-weight: 600; text-align: center; line-height: 42px;">JB</div>
+                  </td>
+                  <td valign="top">
+                    <p style="margin: 0 0 2px 0; font-size: 13px; font-weight: 600; color: #FFFFFF; line-height: 1.3;"><a href="https://rover.redhat.com/people/profile/jbartu" target="_blank" rel="noopener noreferrer" class="wte-name-link" style="color: #FFFFFF !important; text-decoration: none !important; border-bottom: 1px solid #4FD1C5;">Jaromir Bartu</a></p>
+                    <p style="margin: 0 0 3px 0; font-size: 11px; color: #C7C7C7; line-height: 1.35;">Information Systems Engineer</p>
+                    <p style="margin: 0; font-family: Consolas, 'Courier New', monospace; font-size: 10px; color: #4FD1C5; line-height: 1.35;">RH · Brno · Tech Park Brno</p>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="wte-member" style="padding: 10px 0; border-top: 1px solid #2E2E2E;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+                <tr>
+                  <td valign="top" style="width: 42px; padding-right: 10px;">
+                    <div class="wte-avatar" style="width: 42px; height: 42px; border-radius: 12px; background-color: #3A0000; border: 1px solid #EE0000; color: #FFFFFF; font-family: Consolas, 'Courier New', monospace; font-size: 12px; font-weight: 600; text-align: center; line-height: 42px;">KB</div>
+                  </td>
+                  <td valign="top">
+                    <p style="margin: 0 0 2px 0; font-size: 13px; font-weight: 600; color: #FFFFFF; line-height: 1.3;"><a href="https://rover.redhat.com/people/profile/kbrady" target="_blank" rel="noopener noreferrer" class="wte-name-link" style="color: #FFFFFF !important; text-decoration: none !important; border-bottom: 1px solid #4FD1C5;">Keith Brady</a></p>
+                    <p style="margin: 0 0 3px 0; font-size: 11px; color: #C7C7C7; line-height: 1.35;">Information Systems Engineer</p>
+                    <p style="margin: 0; font-family: Consolas, 'Courier New', monospace; font-size: 10px; color: #4FD1C5; line-height: 1.35;">RH · Dublin</p>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="wte-member" style="padding: 10px 0; border-top: 1px solid #2E2E2E;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+                <tr>
+                  <td valign="top" style="width: 42px; padding-right: 10px;">
+                    <div class="wte-avatar" style="width: 42px; height: 42px; border-radius: 12px; background-color: #3A0000; border: 1px solid #EE0000; color: #FFFFFF; font-family: Consolas, 'Courier New', monospace; font-size: 12px; font-weight: 600; text-align: center; line-height: 42px;">JY</div>
+                  </td>
+                  <td valign="top">
+                    <p style="margin: 0 0 2px 0; font-size: 13px; font-weight: 600; color: #FFFFFF; line-height: 1.3;"><a href="https://rover.redhat.com/people/profile/jbulos" target="_blank" rel="noopener noreferrer" class="wte-name-link" style="color: #FFFFFF !important; text-decoration: none !important; border-bottom: 1px solid #4FD1C5;">Jovy Bulos</a></p>
+                    <p style="margin: 0 0 3px 0; font-size: 11px; color: #C7C7C7; line-height: 1.35;">Senior Information Systems Engineer</p>
+                    <p style="margin: 0; font-family: Consolas, 'Courier New', monospace; font-size: 10px; color: #4FD1C5; line-height: 1.35;">RH · Singapore | The Page Author</p>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="wte-member" style="padding: 10px 0; border-top: 1px solid #2E2E2E;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+                <tr>
+                  <td valign="top" style="width: 42px; padding-right: 10px;">
+                    <div class="wte-avatar" style="width: 42px; height: 42px; border-radius: 12px; background-color: #3A0000; border: 1px solid #EE0000; color: #FFFFFF; font-family: Consolas, 'Courier New', monospace; font-size: 12px; font-weight: 600; text-align: center; line-height: 42px;">SK</div>
+                  </td>
+                  <td valign="top">
+                    <p style="margin: 0 0 2px 0; font-size: 13px; font-weight: 600; color: #FFFFFF; line-height: 1.3;"><a href="https://rover.redhat.com/people/profile/snagaraj" target="_blank" rel="noopener noreferrer" class="wte-name-link" style="color: #FFFFFF !important; text-decoration: none !important; border-bottom: 1px solid #4FD1C5;">Sampath Kumar Nagarajan</a></p>
+                    <p style="margin: 0 0 3px 0; font-size: 11px; color: #C7C7C7; line-height: 1.35;">Senior Information Systems Engineer</p>
+                    <p style="margin: 0; font-family: Consolas, 'Courier New', monospace; font-size: 10px; color: #4FD1C5; line-height: 1.35;">RH · Bangalore · Carina</p>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="wte-member" style="padding: 10px 0; border-top: 1px solid #2E2E2E;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+                <tr>
+                  <td valign="top" style="width: 42px; padding-right: 10px;">
+                    <div class="wte-avatar" style="width: 42px; height: 42px; border-radius: 12px; background-color: #3A0000; border: 1px solid #EE0000; color: #FFFFFF; font-family: Consolas, 'Courier New', monospace; font-size: 12px; font-weight: 600; text-align: center; line-height: 42px;">BR</div>
+                  </td>
+                  <td valign="top">
+                    <p style="margin: 0 0 2px 0; font-size: 13px; font-weight: 600; color: #FFFFFF; line-height: 1.3;"><a href="https://rover.redhat.com/people/profile/braynor" target="_blank" rel="noopener noreferrer" class="wte-name-link" style="color: #FFFFFF !important; text-decoration: none !important; border-bottom: 1px solid #4FD1C5;">Bill Raynor</a></p>
+                    <p style="margin: 0 0 3px 0; font-size: 11px; color: #C7C7C7; line-height: 1.35;">Senior Workplace Technology Engineer</p>
+                    <p style="margin: 0; font-family: Consolas, 'Courier New', monospace; font-size: 10px; color: #4FD1C5; line-height: 1.35;">RH · Raleigh</p>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="wte-member" style="padding: 10px 0; border-top: 1px solid #2E2E2E;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+                <tr>
+                  <td valign="top" style="width: 42px; padding-right: 10px;">
+                    <div class="wte-avatar" style="width: 42px; height: 42px; border-radius: 12px; background-color: #3A0000; border: 1px solid #EE0000; color: #FFFFFF; font-family: Consolas, 'Courier New', monospace; font-size: 12px; font-weight: 600; text-align: center; line-height: 42px;">FS</div>
+                  </td>
+                  <td valign="top">
+                    <p style="margin: 0 0 2px 0; font-size: 13px; font-weight: 600; color: #FFFFFF; line-height: 1.3;"><a href="https://rover.redhat.com/people/profile/fsalu" target="_blank" rel="noopener noreferrer" class="wte-name-link" style="color: #FFFFFF !important; text-decoration: none !important; border-bottom: 1px solid #4FD1C5;">Fabiano Salu</a></p>
+                    <p style="margin: 0 0 3px 0; font-size: 11px; color: #C7C7C7; line-height: 1.35;">Senior Delivery Operations Engineer</p>
+                    <p style="margin: 0; font-family: Consolas, 'Courier New', monospace; font-size: 10px; color: #4FD1C5; line-height: 1.35;">RH · Sao Paulo</p>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="wte-member" style="padding: 10px 0; border-top: 1px solid #2E2E2E;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+                <tr>
+                  <td valign="top" style="width: 42px; padding-right: 10px;">
+                    <div class="wte-avatar" style="width: 42px; height: 42px; border-radius: 12px; background-color: #3A0000; border: 1px solid #EE0000; color: #FFFFFF; font-family: Consolas, 'Courier New', monospace; font-size: 12px; font-weight: 600; text-align: center; line-height: 42px;">TV</div>
+                  </td>
+                  <td valign="top">
+                    <p style="margin: 0 0 2px 0; font-size: 13px; font-weight: 600; color: #FFFFFF; line-height: 1.3;"><a href="https://rover.redhat.com/people/profile/tvargas" target="_blank" rel="noopener noreferrer" class="wte-name-link" style="color: #FFFFFF !important; text-decoration: none !important; border-bottom: 1px solid #4FD1C5;">Tobey Vargas</a></p>
+                    <p style="margin: 0 0 3px 0; font-size: 11px; color: #C7C7C7; line-height: 1.35;">Senior AV Systems Engineer</p>
+                    <p style="margin: 0; font-family: Consolas, 'Courier New', monospace; font-size: 10px; color: #4FD1C5; line-height: 1.35;">RH · Boston</p>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="wte-member" style="padding: 10px 0; border-top: 1px solid #2E2E2E;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+                <tr>
+                  <td valign="top" style="width: 42px; padding-right: 10px;">
+                    <div class="wte-avatar" style="width: 42px; height: 42px; border-radius: 12px; background-color: #3A0000; border: 1px solid #EE0000; color: #FFFFFF; font-family: Consolas, 'Courier New', monospace; font-size: 12px; font-weight: 600; text-align: center; line-height: 42px;">EV</div>
+                  </td>
+                  <td valign="top">
+                    <p style="margin: 0 0 2px 0; font-size: 13px; font-weight: 600; color: #FFFFFF; line-height: 1.3;"><a href="https://rover.redhat.com/people/profile/evlkova" target="_blank" rel="noopener noreferrer" class="wte-name-link" style="color: #FFFFFF !important; text-decoration: none !important; border-bottom: 1px solid #4FD1C5;">Eva Vlkova</a></p>
+                    <p style="margin: 0 0 3px 0; font-size: 11px; color: #C7C7C7; line-height: 1.35;">Intern</p>
+                    <p style="margin: 0; font-family: Consolas, 'Courier New', monospace; font-size: 10px; color: #4FD1C5; line-height: 1.35;">RH · Brno · Tech Park Brno</p>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </table>
+
+
+
+
+
+  </div><!-- /wte-layout -->
+  <script>
+    (function () {
+      var form = document.getElementById("wte-site-form");
+      var input = document.getElementById("wte-site-q");
+      var chips = document.querySelectorAll("#wte-site-chips a.wte-site-chip");
+      if (!form || !input || !chips.length) return;
+
+      function norm(s) {
+        return String(s || "").toUpperCase().replace(/\s+/g, " ").trim();
+      }
+
+      function matches(site, q) {
+        var a = norm(site);
+        var b = norm(q);
+        if (!b) return true;
+        return a === b || a.indexOf(b) === 0 || a.replace(/[\s-]/g, "").indexOf(b.replace(/[\s-]/g, "")) !== -1;
+      }
+
+      function filterChips() {
+        var q = input.value;
+        for (var i = 0; i < chips.length; i++) {
+          chips[i].style.display = matches(chips[i].getAttribute("data-site"), q) ? "inline-block" : "none";
+        }
+      }
+
+      function findExact() {
+        var q = norm(input.value);
+        if (!q) return null;
+        var found = [];
+        for (var i = 0; i < chips.length; i++) {
+          if (matches(chips[i].getAttribute("data-site"), q)) found.push(chips[i]);
+        }
+        if (found.length === 1) return found[0];
+        for (var j = 0; j < found.length; j++) {
+          if (norm(found[j].getAttribute("data-site")) === q) return found[j];
+        }
+        return null;
+      }
+
+      input.addEventListener("input", filterChips);
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        var hit = findExact();
+        if (hit && hit.href) {
+          window.open(hit.href, "_blank", "noopener,noreferrer");
+          return;
+        }
+        var q = norm(input.value);
+        if (!q) return;
+        window.open(
+          "https://drive.google.com/drive/u/0/search?q=" + encodeURIComponent(q + " 07 Switch Connectivity Matrix"),
+          "_blank",
+          "noopener,noreferrer"
+        );
+      });
+    })();
+  </script>
+</div>
