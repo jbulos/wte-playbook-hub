@@ -4,6 +4,8 @@ Workplace Technology Engineering playbook hub.
 
 Live site: https://jbulos.github.io/wte-playbook-hub/
 
+Last source sync: 15 Sep 2026, 14:47 SGT. Flex Audit now has Data Entry Template only.
+
 ## Files
 
 - `index.html` — the page GitHub Pages serves
